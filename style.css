@@ -369,7 +369,7 @@ section {
 .heading{
   color: white;
 }
-certificate-box{
+.certificate-box{
   display: grid;
    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
    place-items: center;
@@ -378,7 +378,7 @@ certificate-box{
 }
 .certificate-card img{
   width: 100%;
-  height: 200px;
+  height: 450px;
   border-radius: 2em;
   object-fit: cover;
 }
