@@ -163,7 +163,7 @@ section {
   border: 2px solid var(--main-color);
   border-radius: 50%;
   color: var(--main-color);
-  margin: 3rem 0.7rem;
+  margin: 0.1rem 0.7rem;
   transition: 0.3s ease-in-out;
 }
 
@@ -362,6 +362,25 @@ section {
   min-height: 120px;
   font-size: 1.6rem;
   color: white;
+}
+.certificate{
+  background-color: var(--second-bg-color);
+}
+.heading{
+  color: white;
+}
+certificate-box{
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   place-items: center;
+   gap: 3rem;
+   row-gap: 5rem;
+}
+.certificate-card img{
+  width: 100%;
+  height: 200px;
+  border-radius: 2em;
+  object-fit: cover;
 }
 .contact{
   background-color: var(--bg-color);
